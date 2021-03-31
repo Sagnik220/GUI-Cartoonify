@@ -2,17 +2,28 @@
 
 ### How to set up locally?
 
-As I have uploaded the venv file,there is no requirement of setting up any virtual env anymore/activating it.The virtual env will automatically activate if you clone the repository in the local.
+- Fork the repository
 
-
-Dependencies:
+- Git clone your forked repository
+- Create virtual environment-
+```
+- python -m venv env
+- source env/bin/activate (Linux)
+- env\Scripts\activate (Windows)
+```
+- Install dependencies
+- Go to project directory
+```
+- cd Cartoonify Image
+```
+- install these requirements
 
 ```
-- opencv-python
-- tkinter
-- easygui
-- pillow
-```
+-  pip install opencv-python
+- pip install tkinter
+- pip install easygui
+- pip install pillow
+```  
 
 ### GUI Interface
 -----
