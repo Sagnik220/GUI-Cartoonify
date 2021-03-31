@@ -19,7 +19,7 @@
 - install these requirements
 
 ```
--  pip install opencv-python
+- pip install opencv-python
 - pip install tkinter
 - pip install easygui
 - pip install pillow
