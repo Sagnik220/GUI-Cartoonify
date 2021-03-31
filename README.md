@@ -1,5 +1,7 @@
 ## GUI-Cartoonify
 
+This is a complete end to end OpenCV "Cartoonify Image" Desktop Application, test the application by clicking on the gui_app.exe file. The application is distributable and thus can be used by anynone without running it on Code Editor.
+
 ### How to set up locally?
 
 - Fork the repository
@@ -12,17 +14,17 @@
 - env\Scripts\activate (Windows)
 ```
 - Install dependencies
-- Go to project directory
-```
-- cd Cartoonify Image
-```
-- install these requirements
-
 ```
 - pip install opencv-python
 - pip install tkinter
 - pip install easygui
 - pip install pillow
+```  
+
+### Steps to convert .py into .exe
+```
+- 1. pip install pyinstaller
+- 2. pyinstaller --onefile -w gui_app.py
 ```  
 
 ### GUI Interface
