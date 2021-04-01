@@ -26,6 +26,10 @@ This is a complete end to end OpenCV "Cartoonify Image" Desktop Application, tes
 - 1. pip install pyinstaller
 - 2. pyinstaller --onefile -w gui_app.py
 ```  
+### Future Functionality Implementation list:
+```
+- 1. Sharpen Image
+```  
 
 ### GUI Interface
 -----
