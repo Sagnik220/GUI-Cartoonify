@@ -23,12 +23,12 @@ This is a complete end to end OpenCV "Cartoonify Image" Desktop Application, tes
 
 ### Steps to convert .py into .exe
 ```
-- 1. pip install pyinstaller
-- 2. pyinstaller --onefile -w gui_app.py
+- pip install pyinstaller
+- pyinstaller --onefile -w gui_app.py
 ```  
 ### Future Functionality Implementation list:
 ```
-- 1. Sharpen Image
+- Sharpen Image
 ```  
 
 ### GUI Interface
